@@ -11,8 +11,7 @@ public class StatsService {
     }
 
     public int avgSumSales(int[] sales) { //Средняя сумма продаж
-        int avgSum = sumSales(sales) / sales.length;
-        return avgSum;
+        return sumSales(sales) / sales.length;
     }
 
     public int maxMonthSale(int[] sales) { //Месяц с максимальной продажей

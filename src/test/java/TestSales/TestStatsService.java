@@ -43,7 +43,7 @@ public class TestStatsService {
     }
 
     @Test //Кол-во месяцев с продажами ниже среднего
-    public void testСountMonthMinSale() {
+    public void testCountMonthMinSale() {
         StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 5;
@@ -52,7 +52,7 @@ public class TestStatsService {
     }
 
     @Test //Кол-во месяцев с продажами выше среднего
-    public void testСountMonthMaxSale() {
+    public void testCountMonthMaxSale() {
         StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 5;
